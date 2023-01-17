@@ -1,0 +1,8 @@
+Welcome to What-to-eat decidotron 2001!
+
+To use this program, you need to download what_to_eat_decidotron_2001.py and Restaurant inputs.txt 
+and put them in the same folder. 
+
+Restaurant inputs.txt already includes a header, please do not change that. To add your own
+restaurant inputs, you need to delete the existing options and replace them with parameters of the 
+restaurants of your choosing, and separate them by a comma.
