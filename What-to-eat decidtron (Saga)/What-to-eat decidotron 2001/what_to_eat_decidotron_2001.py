@@ -1,4 +1,6 @@
-"""Modules docstring"""
+"""Welcome to what-to-eat-decidotron (WED).
+Please ensure that you've read WED's user manual.
+"""
 import numpy as np
 
 class Restaurant:
