@@ -10,5 +10,5 @@ The projects I have uploaded here are the ones that have passed the internal tes
 - What-to-eat decidotron: https://github.com/ThisisShoo/Pet-Projects/tree/main/What-to-eat%20decidotron
     An RNG that helps you to decide what to eat. Now it will weigh the pros and cons of your dining options, then present your the optimal choice with a small chance of surprise! 
 
-- Recursive PID
+- Recursive PID: https://github.com/ThisisShoo/Pet-Projects/tree/main/Recursive%20PID
     A PID controller that regulates the temperature of a simulated room. 
