@@ -3,15 +3,17 @@ import csv
 
 def covert_csv(file_name):
     """This function reads csv tables and converts them to LaTeX source codes that """
-    print (r'\begin{tabular}[H]')
-    print ('    ')
+    print (r'\being{tabular}[H]')
+    print (r'    \centering')
+    pring (r'    \caption{}')
+    table_begin = r'    \begin{table}[H]'
+    
     with open(f'{file_name}', mode = 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
         output = ''
         for row in reader:
-            print (' ')
             rowtext = ' & '.join(row)
-            rowtext = '    ' + rowtext + ' \\\\ ' + r'\\hline' + ' \\\\'
+            rowtext = '        ' + rowtext + ' \\\\ ' + r'\\hline'
 
             output += rowtext
             print (rowtext)
